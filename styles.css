@@ -1,0 +1,110 @@
+body{
+  background-image:url("https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+  padding-top:20px;
+  font-family: "Source Code Pro", Consolas, Monaco, monospace;
+}
+h1{
+  text-align:center;
+  color:white;
+  font-family: "Source Code Pro", Consolas, Monaco, monospace;
+}
+p{
+  text-align:center;
+  color:white;
+  font-family:"Source Code Pro",Consolas,Monaco,monospace;
+}
+.questions{
+  background-color:rgb(0,0,172);
+  opacity:75%;
+  color:white;
+}
+input{
+  display:block;
+  
+}
+#age-optional{
+  display:inline;
+}
+label[class="question_5"]{
+  display:inline;
+  
+}
+label{
+  display:block;
+}
+.question_5_option_{
+  display:inline;
+}
+#improvement_question{
+  display:inline;
+}
+
+#dropdown{
+  display:block;
+}
+.option_radio section{
+  display:flex;
+  align-items:center;
+}
+.option_radio{
+  margin:8px;
+}
+.improvement_question section{
+  display:flex;
+  align-items:center;
+}
+.improvement_question{
+  margin:8px;
+}
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+fieldset{
+  padding:50px;
+  font-size:20px;
+}
+/*  
+input[type="text"],
+input[type="email"],
+input[type="number"],select,
+input[id="additional-courses"] {
+margin-bottom:20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+input[id="question_5_option_1"],
+input[id="front-end-projects"]{
+  margin-top: px;
+  height:35px;
+}
+input,select{
+  border-radius:5px;
+}
+*/
+.question{
+  margin-bottom:6px;
+  margin-top:25px;
+}
+textarea{
+  width:100%;
+  height:100px; 
+}
+input[value="Submit"]{
+  width:100%;
+  height:35px;
+  background-color:#00cc66;
+  color:white;
+  font-family:"Source Code Pro", Consolas, Monaco, monospace;
+  font-size:20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+  height:35px;
+}
